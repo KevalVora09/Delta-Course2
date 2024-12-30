@@ -10,3 +10,5 @@
 7. git diff main (Difference between main and curret branch)
 8. git merge <branch name> (Merge main and another branch)
 9. git pull origin main (pull branching from gitHub to local system)
+
+<!-- //Mistake -->
