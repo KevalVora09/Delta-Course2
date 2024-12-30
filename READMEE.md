@@ -6,3 +6,5 @@
 4. git checkout -b <branch name> (to create new branch)
 5. git branch -d <branch name> (to delete branch)
 6. git push --set--upstream origin <branch name> (pushing to a new branch)
+
+7. git pull origin main (pull branching from gitHub to local system)
