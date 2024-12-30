@@ -11,4 +11,19 @@
 8. git merge <branch name> (Merge main and another branch)
 9. git pull origin main (pull branching from gitHub to local system)
 
-<!-- //Mistake -->
+# Fixing Mistakes
+
+# Case 1 : Staged Changes
+
+1. git reset <file name> (unadd all unnecessary git add of a file)
+2. git reset (unadd all unnecessary git add of all file)
+
+# Case 2 : Commited Changes (For single commmit)
+
+1. git reset HEAD~1 (uncommit last most git commit of current file)
+
+# Case 3 : Commited Changes (For multiple commmits)
+
+1. git logs (to obtain hashcode of all commits)
+2. get reset <commit hash/hash code> (uncommit every commit from that log to end of current file)
+3. get reset --hard <commit hash/hash code> (uncommit and delete lines for every commit from that log to end of current file)
