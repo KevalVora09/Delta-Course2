@@ -6,3 +6,6 @@
 4. git checkout -b <branch name> (to create new branch)
 5. git branch -d <branch name> (to delete branch)
 6. git push --set--upstream origin <branch name> (pushing to a new branch)
+
+7. git diff main (Difference between main and curret branch)
+8. git merge <branch name> (Merge main and another branch)
